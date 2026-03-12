@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import styles, { layout } from '../styles'
 import Button from './Button'
 import { card } from '../assets'
@@ -14,11 +14,11 @@ const CardDeal = () => {
           dignissimos maxime voluptate quia aut quidem,
           cupiditate optio non dicta iusto mollitia beatae
           error itaque. Natus.</p>
-           <Button styles='mt-10 rounded-[10px]' text='Get Started' />
+        <Button styles='mt-10 rounded-[10px]' text='Get Started' />
       </div>
-        <div className={layout.sectionImg}>
-          <img src={card} alt="card" className='w-[100%] h-[100%] ' />
-        </div>
+      <div className={layout.sectionImg}>
+        <img src={card} alt="card" className='w-[100%] h-[100%] ' />
+      </div>
     </section>
   )
 }

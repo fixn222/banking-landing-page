@@ -7,7 +7,8 @@ import Billing from './Billing'
 import Testimonials from './Testimonials'
 import CTA from './CTA'
 import Footer from './Footer'
-import Button from './Button'
+// import Button from './Button'
+import Client from './Client'
 
 
 export {
@@ -20,6 +21,7 @@ export {
     Footer,
     Stats,
     Testimonials,
+    Client
     
 }
 

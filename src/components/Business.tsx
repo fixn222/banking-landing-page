@@ -12,7 +12,7 @@ interface  props {
   content : string
   index : number
 }
-const FeaturCard = ({icon , title ,content ,id , index } : props)=> {
+const FeaturCard = ({icon , title ,content , index } : props)=> {
    
   return(
    <div className={`flex flex-row p-6 rounded-[20px]

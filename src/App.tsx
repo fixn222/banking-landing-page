@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import {
   NavBar,
   Hero,
@@ -9,6 +9,7 @@ import {
   Footer,
   Stats,
   Testimonials,
+  Client
 } from './components/index.ts'
 
 import styles from './styles.ts'
@@ -35,7 +36,7 @@ const App = () => {
         <Billing />
         <CardDeal />
         <Testimonials />
-        {/* <Client /> */}
+        <Client />
         <CTA />
         <Footer />
       </div>

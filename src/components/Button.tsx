@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 
 const Button = ({styles , text} : {styles : string , text : string}) => {
   return (
